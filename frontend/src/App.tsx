@@ -64,9 +64,6 @@ function App() {
 
       if (response.ok) {
         fetchTodos();
-      } else {
-        const errorData = await response.json().catch(() => null);
-        console.error('Error response:', errorData);
       }
     } catch (error) {
       console.error('Error creating todo:', error);
