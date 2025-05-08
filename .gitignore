@@ -1,0 +1,61 @@
+# General
+.DS_Store
+*.log
+*.swp
+*.swo
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.idea/
+.vscode/
+
+# Dependencies
+node_modules/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Frontend
+frontend/dist/
+frontend/.turbo
+frontend/.next/
+frontend/out/
+frontend/coverage
+frontend/.vercel
+frontend/.svelte-kit
+frontend/.output/
+
+# Docker
+.dockerignore
+
+# Database
+postgres_data/
+*.sqlite3
+*.db
