@@ -81,7 +81,6 @@ function App() {
         },
         body: JSON.stringify({
           task,
-          is_completed: editingTodo.is_completed,
         }),
       });
       if (response.ok) {
@@ -117,7 +116,6 @@ function App() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          task: todo.task,
           is_completed: !todo.is_completed,
         }),
       });
